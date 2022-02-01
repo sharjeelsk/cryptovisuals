@@ -1,0 +1,65 @@
+@import "../../App.scss"; 
+
+.listdiv{
+    margin: 0 10%;
+}
+h2{
+    font-family: $primefont;
+    color:$primary;
+}
+th{
+font-family: $secfont;
+font-weight: 900;
+}
+
+.red{
+    color:darkred;
+}
+
+.green{
+    color:darkgreen;
+}
+
+
+table{
+    th{
+        color:$primary !important;
+    }
+    color:$secondary !important;
+}
+
+.PaginationBttns{
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+a{
+    padding:10px;
+    cursor: pointer;
+    color:$primary;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    
+}
+a:hover{
+    transition: .5s;
+    text-decoration: none;
+    color:darkred;
+}
+a:active{
+    border: none;
+    outline: none;
+}
+}
+
+.PaginationActive a{
+    color:darkred;
+    border: none;
+    outline: none;
+    
+}
+
+
+

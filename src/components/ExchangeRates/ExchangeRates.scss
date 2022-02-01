@@ -1,0 +1,47 @@
+@import "../../App.scss"; 
+
+.inp{
+    background-color: $tertiary !important;
+    color:$primary;
+    border: 2px solid darkgreen;
+    
+    width: 50%;
+    padding:2% 4%;
+   
+}
+label{
+    display: block;
+}
+.error{
+    border: 2px solid red;
+}
+label{
+    color:$secondary;
+    font-weight: 800;
+}
+input{
+    outline: none;
+}
+button:focus{
+    outline:none;
+}
+.row {
+    text-align: center;
+}
+
+.exchangerateheading{
+    color:$primary;
+    text-align: center;
+    font-size: 4rem;
+    font-family: $primefont;
+    margin: 4%;
+}
+
+.btn-grad{
+    color:black;
+    font-family: $primefont;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:0.5% 2%;
+    margin: 0 auto;
+}

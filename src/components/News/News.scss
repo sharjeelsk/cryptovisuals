@@ -1,0 +1,17 @@
+@import "../../App.scss"; 
+
+
+.newshead{
+    padding-top: 3%;
+    font-size: 4rem;
+}
+.newsdetaildiv{
+    width:80%;
+    margin: 5% auto;
+    border: 2px solid $tertiary;
+    padding: 2% 15%;
+}
+
+.newsdetailhead{
+    color:green;
+}

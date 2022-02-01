@@ -1,0 +1,49 @@
+
+ .logoimg{
+     width:3vw;
+ }
+ 
+ .navbarclass{
+     font-size:1.25rem;
+     margin: 0 15%;
+ }
+ .navbar-nav li{
+     padding:0 .25rem;
+ }
+ 
+ .navbar{
+     background-color: inherit !important;
+ }
+
+ #nav{
+     color:"white"
+ }
+
+ .logo{
+     filter:contrast(1.5)
+ }
+
+.nav-link{
+    color:grey
+}
+
+li{
+    color:purple;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+    .logo{
+        height:50%;
+        width:60px;
+    }
+
+}
+@media (max-width: 576px) {
+    .logo{
+        height:50%;
+        width:60px;
+    }
+}
